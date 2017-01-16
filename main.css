@@ -79,6 +79,9 @@ body {
     color: #ffffff;
 }
 
+<footer>&copy; Copyright 2017 TheSpokesmen</footer>
+
+
 @keyframes colorize {
     0% {
         -webkit-filter: grayscale(100%);
