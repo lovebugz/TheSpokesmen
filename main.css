@@ -16,6 +16,35 @@ body {
     padding: 2em 2em 4em;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', serif;
+}
+
+.nav{
+    background-color: #595959;
+    color: #00bfff;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+  }
+
+.nav > li{
+    display: inline-block;
+    padding-right: 50px;
+    }
+
+.nav > li > a {
+    text-decoration: none;
+        color:#00bfff
+    
+}
+
+.nav > li> a:hover {
+    color: #ffffff;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #894de2;
     font-weight: 600;
