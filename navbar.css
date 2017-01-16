@@ -9,8 +9,9 @@ ul.topnav {
 
 /* Float the list items side by side */
 nav li {
-    display:inline-block;
-    margin-left: 70 px;
+    display: inline-block;
+    margin-left: 70px;
+    padding-top 25px;
 }
 
 /* Style the links inside the list items */
