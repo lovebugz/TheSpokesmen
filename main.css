@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: Black;
+   background-image: url("download.jpg");
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #ffffff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
