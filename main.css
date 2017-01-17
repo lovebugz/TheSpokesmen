@@ -90,20 +90,20 @@ nav {
   transition: all ease .5s;
 }
 
-#logo {
+logo {
   color: #fff;
   padding: 20px;
   font-size: 18px;
   transition: all ease .5s;
 }
 
-#nav.shrink {
+nav.shrink {
   height: 40px;
   transition: all ease .5s;
   background: black; // Change background to black on scroll
 }
 
-#nav.shrink #logo {
+nav.shrink #logo {
   padding: 10px;
   transition: all ease .5s;
 }
