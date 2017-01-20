@@ -17,17 +17,7 @@ body {
     list-style: none;
 }
 
-div {
-    display: none;
-    border:1px solid #000;
-    height:30px;
-    width:290px;
-    margin-left:10px;
-}
 
-a:hover + div {
-    display: block;
-}
 
 h1, h2, h3, h4, h5, h6 {
     color: #894de2;
