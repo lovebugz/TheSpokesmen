@@ -165,35 +165,4 @@ h6, .h6 {
   margin-bottom: 0;
 }
 
-.nav{
-    background-color: #595959;
-    color: #00bfff;
-    list-style: none;
-    text-align: center;
-    padding: 20px 0 20px 0;
-  }
 
-.nav > li{
-    display: inline-block;
-    padding-right: 50px;
-    }
-
-.nav > li > a {
-    text-decoration: none;
-        color:#00bfff
-    
-}
-
-.nav > li> a:hover {
-    color: #ffffff;
-}
-
-nav {
-  height: 70px;
-  background: transparent; // Transparent initial setting
-  display: block;
-  position: fixed;
-  width: 100%;
-  z-index: 99999;
-  transition: all ease .5s;
-}
