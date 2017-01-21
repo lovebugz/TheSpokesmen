@@ -77,7 +77,22 @@
 <div class="g-ytsubscribe" data-channelid="UCTDD3HrmI2suSLz37B3G9UA" data-layout="full" data-theme="dark" data-count="hidden" data-onytevent="onYtEvent"></div>
         
         
-        
+  script src="https://apis.google.com/js/platform.js"></script>
+
+<script>
+  function onYtEvent(payload) {
+    if (payload.eventType == 'subscribe') {
+      // Add code to handle subscribe event.
+    } else if (payload.eventType == 'unsubscribe') {
+      // Add code to handle unsubscribe event.
+    }
+    if (window.console) { // for debugging only
+      window.console.log('YT event: ', payload);
+    }
+  }
+</script>
+
+<div class="g-ytsubscribe" data-channelid="UCI-PM3E-F2RPHeyswIYLAxw" data-layout="full" data-count="default" data-onytevent="onYtEvent"></div>      
        
         <a href="https://shop.spreadshirt.com/lilcubvlogs"><b>Our Merchandise</b></a>
         <p> Our Members 
