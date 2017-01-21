@@ -4,8 +4,8 @@ AuthUserFile /home/davidwalsh/html/protect-me-dir/.htpasswd
 require valid-user
 
 RewriteEngine On
-RewriteCond %{index.html} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
 davidwalsh:daWHfZrDLB88.
 rodstewart:roFulYxC2.8ws
