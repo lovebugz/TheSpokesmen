@@ -1,3 +1,12 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /home/davidwalsh/html/protect-me-dir/.htpasswd
+require valid-user
+
 RewriteEngine On
 RewriteCond %{index.html} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+davidwalsh:daWHfZrDLB88.
+rodstewart:roFulYxC2.8ws
+cssexpert:csmnmq.M8T5ho
