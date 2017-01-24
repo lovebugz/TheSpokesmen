@@ -57,6 +57,16 @@
 <script>
 function myFunction() {
     alert("I am an alert box!");
+   document
+    .getElementById("confirmClickActionElementId")
+    .addEventListener("click", function( e ){ //e => event
+        if( ! confirm("Do you really want to do this?") ){
+            e.preventDefault(); // ! => don't want to do this
+        } else {
+            //want to do this! => maybe do something about it?
+            alert('Ok, lets do this!');
+        }
+    });
 }
    </script>
 <div class="g-ytsubscribe" data-channelid="UCI-PM3E-F2RPHeyswIYLAxw" data-layout="full" data-count="default" data-onytevent="onYtEvent"></div>      
